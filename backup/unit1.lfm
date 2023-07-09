@@ -1,7 +1,7 @@
 object Kf: TKf
-  Left = 611
+  Left = 679
   Height = 810
-  Top = 126
+  Top = 145
   Width = 764
   HorzScrollBar.Page = 761
   VertScrollBar.Page = 809
@@ -21,11 +21,11 @@ object Kf: TKf
     Height = 709
     Top = -1
     Width = 761
-    ActivePage = TabSheet3
+    ActivePage = TabSheet1
     Font.Height = -15
     Font.Name = 'Arial'
     ParentFont = False
-    TabIndex = 2
+    TabIndex = 0
     TabOrder = 0
     object TabSheet1: TTabSheet
       Caption = 'Макро'
@@ -1035,7 +1035,6 @@ object Kf: TKf
         Font.Name = 'Arial'
         ParentColor = False
         ParentFont = False
-        OnClick = nKH2PO4Click
       end
       object KNO3_K: TFloatSpinEdit
         Left = 356
@@ -1175,7 +1174,6 @@ object Kf: TKf
         Font.Name = 'Arial'
         ParentColor = False
         ParentFont = False
-        OnClick = nK2SO4Click
       end
       object nNH4NO3: TLabel
         Left = 4
@@ -2588,7 +2586,7 @@ object Kf: TKf
         TabOrder = 0
         object TabSheet5: TTabSheet
           Caption = 'Расчет'
-          ClientHeight = 586
+          ClientHeight = 581
           ClientWidth = 742
           Font.Height = -15
           Font.Name = 'Arial'
@@ -2671,7 +2669,6 @@ object Kf: TKf
             Font.Name = 'Arial'
             ParentColor = False
             ParentFont = False
-            OnClick = nKH2PO4Click
           end
           object knK2SO4: TLabel
             Left = 8
@@ -2683,7 +2680,6 @@ object Kf: TKf
             Font.Name = 'Arial'
             ParentColor = False
             ParentFont = False
-            OnClick = nK2SO4Click
           end
           object lCmplx: TLabel
             Left = 8
@@ -3089,6 +3085,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 10
             Value = 1
           end
@@ -3105,6 +3102,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 14
             Value = 1
           end
@@ -3121,6 +3119,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = gmlMgNO3Change
             ParentFont = False
+            ReadOnly = True
             TabOrder = 18
             Value = 1
           end
@@ -3137,6 +3136,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 26
             Value = 1
           end
@@ -3153,6 +3153,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 30
             Value = 1
           end
@@ -3169,6 +3170,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 34
             Value = 1
           end
@@ -3185,6 +3187,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 38
             Value = 1
             Visible = False
@@ -3202,6 +3205,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 42
             Value = 1
           end
@@ -3218,6 +3222,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 46
             Value = 1
           end
@@ -3234,6 +3239,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 50
             Value = 1
           end
@@ -3250,6 +3256,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 54
             Value = 1
           end
@@ -3266,6 +3273,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 58
             Value = 1
           end
@@ -3282,6 +3290,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 62
             Value = 1
           end
@@ -3298,6 +3307,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 66
             Value = 1
           end
@@ -3314,6 +3324,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = CalcConcChange
             ParentFont = False
+            ReadOnly = True
             TabOrder = 70
             Value = 1
           end
@@ -3893,6 +3904,7 @@ object Kf: TKf
             MinValue = 0.001
             OnChange = gmlMgNO3Change
             ParentFont = False
+            ReadOnly = True
             TabOrder = 22
             Value = 1
           end
@@ -3929,7 +3941,7 @@ object Kf: TKf
         end
         object TabSheet6: TTabSheet
           Caption = 'Изготовление'
-          ClientHeight = 586
+          ClientHeight = 581
           ClientWidth = 742
           Font.Height = -15
           Font.Name = 'Arial'
@@ -3999,7 +4011,6 @@ object Kf: TKf
             Font.Name = 'Arial'
             ParentColor = False
             ParentFont = False
-            OnClick = nKH2PO4Click
           end
           object k2nK2SO4: TLabel
             Left = 181
@@ -4011,7 +4022,6 @@ object Kf: TKf
             Font.Name = 'Arial'
             ParentColor = False
             ParentFont = False
-            OnClick = nK2SO4Click
           end
           object l2Fe: TLabel
             Left = 181
@@ -4436,7 +4446,6 @@ object Kf: TKf
             Width = 54
             Font.Height = -15
             Font.Name = 'Arial'
-            OnChange = g2gCaNO3Change
             ParentFont = False
             TabOrder = 3
           end
@@ -4748,7 +4757,7 @@ object Kf: TKf
         end
         object TabSheet7: TTabSheet
           Caption = 'Цена'
-          ClientHeight = 586
+          ClientHeight = 581
           ClientWidth = 742
           object cnCaNO3: TLabel
             Left = 98
@@ -4815,7 +4824,6 @@ object Kf: TKf
             Font.Name = 'Arial'
             ParentColor = False
             ParentFont = False
-            OnClick = nKH2PO4Click
           end
           object cnK2SO4: TLabel
             Left = 98
@@ -4827,7 +4835,6 @@ object Kf: TKf
             Font.Name = 'Arial'
             ParentColor = False
             ParentFont = False
-            OnClick = nK2SO4Click
           end
           object cnFe: TLabel
             Left = 98
@@ -5203,7 +5210,6 @@ object Kf: TKf
             Font.Name = 'Arial'
             ParentColor = False
             ParentFont = False
-            OnClick = nK2SO4Click
           end
           object cgCaCl2: TFloatSpinEdit
             Left = 8
@@ -6721,7 +6727,6 @@ object Kf: TKf
         Height = 54
         Top = 408
         Width = 160
-        OnClick = Image3Click
         Picture.Data = {
           1754506F727461626C654E6574776F726B47726170686963DB07000089504E47
           0D0A1A0A0000000D49484452000000A40000003708020000000D2576FB000000
